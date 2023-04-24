@@ -1,0 +1,28 @@
+.header-burger-menu-bars {
+  max-width: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 25px;
+}
+
+.header-title {
+  color: white;
+  font-size: 30px;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header-slogan {
+  background: #ebe43e;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  color: black;
+  padding: 20px 30px;
+  text-align: center;
+}
