@@ -1,0 +1,22 @@
+.bottle-mate {
+  text-align: center;
+  padding: 25px 25px 5px 25px;
+}
+
+.bottle-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.bottle-size {
+  text-align: left;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
