@@ -1,6 +1,11 @@
 .bottle-mate {
   text-align: center;
-  padding: 25px 25px 5px 25px;
+  padding: 25px 13px 10px 13px;
+}
+
+.bottle-friends {
+  text-align: center;
+  padding: 25px 13px 15px 13px;
 }
 
 .bottle-info {
@@ -11,6 +16,15 @@
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
+}
+
+.bottle-info-friends {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
 }
 
 .bottle-size {
