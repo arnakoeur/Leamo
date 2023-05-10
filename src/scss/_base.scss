@@ -46,6 +46,12 @@ nav {
   width: 100%;
 }
 
+@media (min-width: 1000px) {
+  nav {
+    padding: 60px 122px;
+  }
+}
+
 footer {
   background-color: black;
   padding: 25px;

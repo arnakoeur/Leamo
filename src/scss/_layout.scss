@@ -6,6 +6,12 @@
   font-style: normal;
 }
 
+@media (min-width: 1000px) {
+  .l-header-title {
+    font-size: 50px;
+  }
+}
+
 .l-header-slogan {
   background: #ebe43e;
   font-family: "roboto", sans-serif;
@@ -17,8 +23,21 @@
   text-align: center;
 }
 
+@media (min-width: 1000px) {
+  .l-header-slogan {
+    font-size: 60px;
+    padding: 60px 140px;
+  }
+}
+
 .l-header-burger-menu-bars {
   max-width: 25px;
+}
+
+@media (min-width: 1000px) {
+  .l-header-burger-menu-bars {
+    max-width: 40px;
+  }
 }
 
 .l-friends {
@@ -32,7 +51,7 @@
 }
 
 .l-logo-info {
-  padding: 165px 40px;
+  padding: 135px 40px;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -46,18 +65,30 @@
   font-family: "roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.l-logo-info-text img {
-  margin-bottom: 5px;
+  img {
+    margin-bottom: 5px;
+  }
 }
 
 .l-footer-social {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
 .l-footer-social a {
   max-width: 15px;
+  img {
+    min-width: 15px;
+  }
+}
+
+.l-footer-text {
+  color: white;
+  font-size: 11px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 35px;
 }

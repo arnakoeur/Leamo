@@ -1,11 +1,17 @@
 .bottle-mate {
   text-align: center;
   padding: 25px 13px 10px 13px;
+  img {
+    max-width: 350px;
+  }
 }
 
 .bottle-friends {
   text-align: center;
   padding: 25px 13px 15px 13px;
+  img {
+    // aspect-ratio: 9/16;
+  }
 }
 
 .bottle-info {
