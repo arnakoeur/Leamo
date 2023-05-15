@@ -8,6 +8,13 @@
   padding: 40px 0px 25px 25px;
 }
 
+@media (min-width: 1000px) {
+  .section-products-title {
+    font-size: 50px;
+    padding: 118px 0px 60px 122px;
+  }
+}
+
 .section-friends-title {
   color: white;
   background-color: black;
