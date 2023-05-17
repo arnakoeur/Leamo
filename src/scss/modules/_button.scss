@@ -13,3 +13,9 @@
 .button-discover-all a {
   text-decoration: none;
 }
+
+@media (min-width: 1000px) {
+  .button-discover-all {
+    margin: 125px 480px;
+  }
+}

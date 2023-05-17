@@ -65,6 +65,12 @@
   flex-wrap: wrap;
 }
 
+@media (min-width: 1000px) {
+  .l-logo-info {
+    gap: 30px;
+  }
+}
+
 .l-logo-info-text {
   padding: 15px;
   font-size: 12px;
@@ -97,4 +103,22 @@
   font-weight: 400;
   font-style: normal;
   margin-top: 35px;
+}
+
+@media (min-width: 1000px) {
+  .l-footer-text {
+    font-size: 30px;
+  }
+
+  .l-footer-social {
+    padding-top: 15px;
+    gap: 20px;
+  }
+
+  .l-footer-social a {
+    max-width: 50px;
+    img {
+      min-width: 50px;
+    }
+  }
 }
