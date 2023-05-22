@@ -10,7 +10,11 @@
   margin: 125px 45px;
 }
 
-.button-discover-all a {
+.button-discover-all:hover {
+  background-color: #ebe43e;
+}
+
+.button-link {
   text-decoration: none;
 }
 

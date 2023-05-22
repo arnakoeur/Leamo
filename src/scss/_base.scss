@@ -72,6 +72,12 @@ header {
   // }
 }
 
+.nav-js {
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
 @media (min-width: 1000px) {
   header {
     padding: 60px 122px;
