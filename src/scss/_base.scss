@@ -35,9 +35,10 @@ body {
   padding-top: 107px;
   overscroll-behavior-y: none;
   overscroll-behavior-x: none;
+  scroll-behavior: smooth;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   padding: 35px 25px;
@@ -46,11 +47,40 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 19vh;
+}
+
+.nav-js {
+  display: none;
+  // display: flex;
+  // color: white;
+  // position: absolute;
+  // flex-direction: column;
+  // gap: 35px;
+  // background-color: black;
+  // width: 100%;
+  // left: 0;
+  // top: 19vh;
+  // height: 81vh;
+  // padding: 80px 0px 35px 120px;
+  // a {
+  //   font-family: "roboto", sans-serif;
+  //   font-weight: 400;
+  //   font-style: normal;
+  //   font-size: 42px;
+  //   text-decoration: none;
+  // }
 }
 
 @media (min-width: 1000px) {
-  nav {
+  header {
     padding: 60px 122px;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
+    height: 11vh;
   }
 }
 

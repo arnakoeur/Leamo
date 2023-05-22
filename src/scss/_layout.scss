@@ -4,6 +4,7 @@
   font-family: "roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-decoration: none;
 }
 
 @media (min-width: 1000px) {
@@ -119,6 +120,56 @@
     max-width: 50px;
     img {
       min-width: 50px;
+    }
+  }
+}
+
+.burger-open {
+  display: flex;
+  color: white;
+  position: absolute;
+  flex-direction: column;
+  gap: 35px;
+  background-color: black;
+  width: 100%;
+  left: 0;
+  top: 19vh;
+  height: 81vh;
+  padding: 80px 0px 35px 120px;
+  a {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    text-decoration: none;
+    &:last-of-type {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .burger-open {
+    display: flex;
+    color: white;
+    position: absolute;
+    flex-direction: column;
+    gap: 35px;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    top: 11vh;
+    height: 89vh;
+    padding: 80px 35px;
+    a {
+      font-family: "roboto", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 42px;
+      text-decoration: none;
+      &:last-of-type {
+        margin-top: 50px;
+      }
     }
   }
 }
