@@ -1,5 +1,5 @@
 var menuTrigger = document.querySelector(".menu-trigger");
-var menu = document.querySelector(".nav-js");
+var menu = document.querySelector(".nav-container");
 
 console.log(menu, menuTrigger);
 

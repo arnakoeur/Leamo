@@ -50,7 +50,7 @@ header {
   height: 19vh;
 }
 
-.nav-js {
+.nav-container {
   display: none;
   // display: flex;
   // color: white;
@@ -73,6 +73,28 @@ header {
 }
 
 .nav-js {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  gap: 35px;
+  background-color: black;
+  width: 100%;
+  left: 0;
+  top: 19vh;
+  height: 81vh;
+  a {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    text-decoration: none;
+    &:last-of-type {
+      margin-top: 50px;
+    }
+  }
+  img {
+    max-width: 593px;
+  }
   a:hover {
     text-decoration: underline;
   }
